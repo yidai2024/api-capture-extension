@@ -1,0 +1,26 @@
+{
+  "name": "api-capture-extension",
+  "version": "1.0.0",
+  "description": "浏览器扩展 - 自动捕获和标注网络接口",
+  "main": "background.js",
+  "scripts": {
+    "build": "npm run icons && npm run zip",
+    "icons": "node -e \"console.log('请在浏览器中运行 generate-icons.js 生成图标')\"",
+    "zip": "zip -r api-capture-extension.zip . -x '*.git*' 'node_modules/*' '*.zip'",
+    "dev": "echo '请在 chrome://extensions/ 中加载已解压的扩展程序'",
+    "clean": "rm -f api-capture-extension.zip"
+  },
+  "keywords": [
+    "browser-extension",
+    "chrome-extension",
+    "api-capture",
+    "network-monitor",
+    "developer-tools"
+  ],
+  "author": "API Capture Team",
+  "license": "MIT",
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
