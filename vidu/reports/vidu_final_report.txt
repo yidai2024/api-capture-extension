@@ -1,0 +1,167 @@
+
+======================================================================
+Vidu.cn API接口抓取最终报告
+======================================================================
+抓取时间: 2026-04-14 09:14:30
+网站: https://www.vidu.cn/
+总API端点数: 90
+
+======================================================================
+核心业务API分类统计
+======================================================================
+1. 用户认证与管理API: 2个
+2. 任务管理API: 11个
+3. 支付与订单API: 1个
+4. 其他核心API: 0个
+5. React Server Components API: 68个
+6. 第三方服务API: 5个
+7. 其他API: 3个
+
+======================================================================
+1. 用户认证与管理API
+======================================================================
+1. iam/v1/tracks/update
+   URL: https://service.vidu.cn/iam/v1/tracks/update
+   说明: 用户行为追踪上报
+
+2. iam/v1/users/me
+   URL: https://service.vidu.cn/iam/v1/users/me
+   说明: 获取当前登录用户信息
+
+
+======================================================================
+2. 任务管理API
+======================================================================
+1. vidu/media-asset/credit_left-e629e54d.webp
+   URL: https://service.vidu.cn/vidu/media-asset/credit_left-e629e54d.webp
+
+2. vidu/media-asset/credit_right-f03a4fb7.webp
+   URL: https://service.vidu.cn/vidu/media-asset/credit_right-f03a4fb7.webp
+
+3. vidu/media-asset/invite-friends-dialog-header-zh-bcb67510.webp
+   URL: https://service.vidu.cn/vidu/media-asset/invite-friends-dialog-header-zh-bcb67510.webp
+
+4. vidu/media-asset/q3-712dcfbb.webp
+   URL: https://service.vidu.cn/vidu/media-asset/q3-712dcfbb.webp
+
+5. vidu/media-asset/q3-r2v-bg-6cf53520.webp
+   URL: https://service.vidu.cn/vidu/media-asset/q3-r2v-bg-6cf53520.webp
+
+6. vidu/media-asset/q3-r2v-illustration-cde2c791.webp
+   URL: https://service.vidu.cn/vidu/media-asset/q3-r2v-illustration-cde2c791.webp
+
+7. vidu/media-asset/q3_r2v_title_zh-e5c347ee.webp
+   URL: https://service.vidu.cn/vidu/media-asset/q3_r2v_title_zh-e5c347ee.webp
+
+8. vidu/v1/page-config?keys=template_entrance_tag
+   URL: https://service.vidu.cn/vidu/v1/page-config?keys=template_entrance_tag
+   说明: 获取页面配置信息
+
+9. vidu/v1/region
+   URL: https://service.vidu.cn/vidu/v1/region
+   说明: 获取用户地区信息
+
+10. vidu/v1/tasks/count?states=created&states=queueing&states=preparation&states=scheduling&states=processing&types=img2video&types=character2video&types=text2video&types=reference2image&types=text2image&types=image_edit&types=video_edit&types=upscale&types=extend&types=headtailimg2video&types=multi_frame&types=controlnet&types=material2video&types=video2extend&types=video2extail&types=face_swap&types=upscale_image&types=one_click&types=music_video&types=lip_sync&types=remake
+   URL: https://service.vidu.cn/vidu/v1/tasks/count?states=created&states=queueing&states=preparation&states=scheduling&states=processing&types=img2video&types=character2video&types=text2video&types=reference2image&types=text2image&types=image_edit&types=video_edit&types=upscale&types=extend&types=headtailimg2video&types=multi_frame&types=controlnet&types=material2video&types=video2extend&types=video2extail&types=face_swap&types=upscale_image&types=one_click&types=music_video&types=lip_sync&types=remake
+   说明: 获取各状态任务数量统计
+
+11. vidu/v1/tasks/credits?type=text2video&settings.duration=8&settings.resolution=1080p&settings.movement_amplitude=auto&settings.aspect_ratio=16%3A9&settings.sample_count=1&settings.schedule_mode=normal&settings.transition=pro&settings.codec=h264&settings.model_version=3.2&settings.use_trial=false
+   URL: https://service.vidu.cn/vidu/v1/tasks/credits?type=text2video&settings.duration=8&settings.resolution=1080p&settings.movement_amplitude=auto&settings.aspect_ratio=16%3A9&settings.sample_count=1&settings.schedule_mode=normal&settings.transition=pro&settings.codec=h264&settings.model_version=3.2&settings.use_trial=false
+   说明: 获取任务所需积分
+
+
+======================================================================
+3. 支付与订单API
+======================================================================
+1. credit/v1/orders/products/filter?channels=alipay
+   URL: https://service.vidu.cn/credit/v1/orders/products/filter?channels=alipay
+   说明: 获取可购买产品列表（支付宝渠道）
+
+
+======================================================================
+4. 其他核心API
+======================================================================
+
+======================================================================
+5. 第三方服务API
+======================================================================
+1. 百度统计
+   URL: https://fclog.baidu.com/log/ocpcagl?type=behavior&emd=euc
+
+2. 字节跳动数据分析
+   URL: https://gator.volces.com/list
+
+3. 字节跳动数据分析
+   URL: https://gator.volces.com/webid
+
+4. Microsoft Clarity
+   URL: https://i.clarity.ms/collect
+
+5. Sentry错误监控
+   URL: https://trace.shengshu-ai.com/api/10/envelope/?sentry_version=7&sentry_key=4957b3fa7d9217a0a2cde60c491845b7&sentry_client=sentry.javascript.nextjs%2F10.35.0
+
+
+======================================================================
+视频生成功能相关API详解
+======================================================================
+
+Vidu平台支持多种视频生成类型:
+- text2video: 文本生成视频
+- img2video: 图片生成视频
+- character2video: 角色生成视频
+- reference2image: 参考图生成
+- text2image: 文本生成图片
+- image_edit: 图片编辑
+- video_edit: 视频编辑
+- upscale: 视频超分
+- extend: 视频延长
+- face_swap: 换脸
+- lip_sync: 对口型
+- music_video: 音乐视频
+
+======================================================================
+API调用示例
+======================================================================
+
+1. 获取用户信息:
+   GET https://service.vidu.cn/iam/v1/users/me
+
+2. 获取地区信息:
+   GET https://service.vidu.cn/vidu/v1/region
+
+3. 获取任务数量:
+   GET https://service.vidu.cn/vidu/v1/tasks/count?states=created&states=queueing&types=text2video
+
+4. 获取任务积分:
+   GET https://service.vidu.cn/vidu/v1/tasks/credits?type=text2video&settings.duration=8
+
+5. 获取产品列表:
+   GET https://service.vidu.cn/credit/v1/orders/products/filter?channels=alipay
+
+======================================================================
+技术架构总结
+======================================================================
+
+前端框架: Next.js (React Server Components)
+后端服务: service.vidu.cn (RESTful API)
+认证方式: Cookie/Session (需要登录)
+视频存储: image01.vidu.zone (CDN)
+错误监控: Sentry
+数据分析: 字节跳动、百度、Microsoft Clarity
+
+======================================================================
+登录功能说明
+======================================================================
+
+当前状态: 已找到登录入口，但遇到遮罩层拦截问题
+
+登录流程:
+1. 点击"登录"按钮打开登录弹窗
+2. 输入手机号
+3. 点击"获取/登录"按钮发送验证码
+4. 输入验证码完成登录
+
+技术问题: 登录弹窗有遮罩层(backdrop)阻止点击事件
+
+======================================================================
+======================================================================
