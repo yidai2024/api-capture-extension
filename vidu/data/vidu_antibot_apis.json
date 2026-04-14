@@ -1,0 +1,7 @@
+[
+  {
+    "url": "https://service.vidu.cn/iam/v1/tracks/update",
+    "method": "POST",
+    "post_data": "{\"device_id\":\"DEVICE_ecb09571-a8d0-4465-a6a4-f984e204bb2a\",\"meta_data\":{\"utm_source\":\"\",\"utm_campaign\":\"\",\"utm_term\":\"\",\"utm_content\":\"\",\"utm_medium\":\"\",\"logidUrl\":\"\"}}"
+  }
+]
