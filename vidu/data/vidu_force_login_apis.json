@@ -1,0 +1,197 @@
+[
+  {
+    "url": "https://www.vidu.cn/create/text2video",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://service.vidu.cn/vidu/v1/region",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://service.vidu.cn/iam/v1/users/me",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://service.vidu.cn/iam/v1/tracks/update",
+    "method": "POST",
+    "post_data": "{\"device_id\":\"DEVICE_e60bea2b-c0c1-44dc-afb4-232e8bb21ef9\",\"meta_data\":{\"utm_source\":\"\",\"utm_campaign\":\"\",\"utm_term\":\"\",\"utm_content\":\"\",\"utm_medium\":\"\",\"logidUrl\":\"\"}}"
+  },
+  {
+    "url": "https://service.vidu.cn/vidu/v1/page-config?keys=template_entrance_tag",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://www.vidu.cn/home?_rsc=1lqar",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://image01.vidu.zone/vidu/media-asset/q3-r2v-bg-6cf53520.webp",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://image01.vidu.zone/vidu/media-asset/q3-r2v-illustration-cde2c791.webp",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://image01.vidu.zone/vidu/media-asset/q3_r2v_title_zh-e5c347ee.webp",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://service.vidu.cn/vidu/v1/tasks/count?states=created&states=queueing&states=preparation&states=scheduling&states=processing&types=img2video&types=character2video&types=text2video&types=reference2image&types=text2image&types=image_edit&types=video_edit&types=upscale&types=extend&types=headtailimg2video&types=multi_frame&types=controlnet&types=material2video&types=video2extend&types=video2extail&types=face_swap&types=upscale_image&types=one_click&types=music_video&types=lip_sync&types=remake",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://image01.vidu.zone/vidu/media-asset/q3-712dcfbb.webp",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://image01.vidu.zone/vidu/media-asset/q2-39d78492.webp",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://image01.vidu.zone/vidu/media-asset/Q1-a1a97151.webp",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://www.vidu.cn/home/recommend?_rsc=1lqar",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://www.vidu.cn/api/canary?deviceId=DEVICE_e60bea2b-c0c1-44dc-afb4-232e8bb21ef9&userId=undefined",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://image01.vidu.zone/vidu/media-asset/invite-friends-dialog-header-zh-bcb67510.webp",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://image01.vidu.zone/vidu/media-asset/credit_left-e629e54d.webp",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://image01.vidu.zone/vidu/media-asset/credit_right-f03a4fb7.webp",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://service.vidu.cn/credit/v1/orders/products/filter?channels=alipay",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://www.vidu.cn/home/recommend?_rsc=kst96",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://www.vidu.cn/home/recommend?_rsc=ydwca",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://www.vidu.cn/home/recommend?_rsc=p31r6",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://www.vidu.cn/home/recommend?_rsc=1qjaz",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://www.vidu.cn/home/recommend?_rsc=4xf8u",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://www.vidu.cn/home/recommend?_rsc=4n8pu",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://www.vidu.cn/home/recommend?_rsc=d2w2m",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://www.vidu.cn/home/recommend?_rsc=1nfl0",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://www.vidu.cn/home/recommend?_rsc=1k0kt",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://hm.baidu.com/hm.gif?hca=470B2EFAD40D2532&cc=1&ck=1&cl=24-bit&ds=1920x1080&vl=1080&et=0&ja=0&ln=en-us&lo=0&rnd=1551578935&si=6aaa59948703c6b6994e81ce85bf7478&v=1.3.2&lv=1&sn=35498&r=0&ww=1920&u=https%3A%2F%2Fwww.vidu.cn%2Fcreate%2Ftext2video&tt=Vidu%20AI%20-%20%E6%96%87%E5%AD%97%E7%94%9F%E8%A7%86%E9%A2%91",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://service.vidu.cn/vidu/v1/tasks/credits?type=text2video&settings.duration=8&settings.resolution=1080p&settings.movement_amplitude=auto&settings.aspect_ratio=16%3A9&settings.sample_count=1&settings.schedule_mode=normal&settings.transition=pro&settings.codec=h264&settings.model_version=3.2&settings.use_trial=false",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://bat.bing.com/action/0?ti=187228735&Ver=2&mid=975bebaa-2626-4a92-9248-0a654e201c9b&bo=1&sid=a3323dc037f211f1a2a89d3f230b82bd&vid=a332584037f211f1b7b147a8da187f3e&vids=1&msclkid=N&pi=0&lg=en-US&sw=1920&sh=1080&sc=24&nwd=1&tl=Vidu%20AI%20-%20%E6%96%87%E5%AD%97%E7%94%9F%E8%A7%86%E9%A2%91&kw=%E7%94%9F%E6%95%B0Vidu,%20Vidu%E6%A8%A1%E5%9E%8B,%20Vidu,%20AI%E8%A7%86%E9%A2%91,%20%E6%96%87%E7%94%9F%E8%A7%86%E9%A2%91,%20%E5%9B%BE%E7%94%9F%E8%A7%86%E9%A2%91,%20%E5%8F%82%E8%80%83%E7%94%9F%E8%A7%86%E9%A2%91,%20%E4%B8%BB%E4%BD%93%E4%B8%80%E8%87%B4%E6%80%A7,%20Vidu,%20Vidu%20AI,%20%E8%A7%86%E9%A2%91%E7%94%9F%E6%88%90&p=https%3A%2F%2Fwww.vidu.cn%2Fcreate%2Ftext2video&r=&lt=1055&evt=pageLoad&sv=2&cdb=AQAQ&rn=500367",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://www.vidu.cn/privacy?_rsc=1lqar",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://www.vidu.cn/terms?_rsc=1lqar",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://www.vidu.cn/terms?_rsc=kst96",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://www.vidu.cn/terms?_rsc=1cfvc",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://www.vidu.cn/terms?_rsc=x6196",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://www.vidu.cn/privacy?_rsc=kst96",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://www.vidu.cn/privacy?_rsc=6c7e8",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://www.vidu.cn/privacy?_rsc=jzi1k",
+    "method": "GET",
+    "post_data": null
+  }
+]
